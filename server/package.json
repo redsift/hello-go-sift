@@ -1,0 +1,9 @@
+{
+  "name": "hello-go-sift",
+  "display-name": "Hello Go Sift",
+  "description": "",
+  "author": "",
+  "version": "1.0.0",
+  "#": "Please use 'redsift npm' instead of system 'npm' ",
+  "dependencies": {}
+}
