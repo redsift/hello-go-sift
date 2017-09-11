@@ -19,3 +19,7 @@ node_modules/
 # Python
 *.pyc
 
+# Go
+server/vendor
+server/_run
+

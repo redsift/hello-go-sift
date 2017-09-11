@@ -15,16 +15,16 @@
 module.exports = function (got) {
   const inData = got.in;
 
-  console.log('hello-go-sift: node1.js: data received:', inData.data);
+  // console.log('hello-go-sift: node1.js: data received:', inData.data);
 
   const json = inData.data.map(d => JSON.parse(d.value));
   json.forEach(function(value, i){
-    console.log('datum#', i, 'value:', value)
+    // console.log('datum#', i, 'value:', value)
   })
 
-  return [{
-    name: 'output1',
-    key: 'dataLength',
-    value: json.length
-  }];
+  // return [{
+  //   name: 'output1',
+  //   key: 'dataLength',
+  //   value: json.length
+  // }];
 };
